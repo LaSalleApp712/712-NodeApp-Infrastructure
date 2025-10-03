@@ -1,0 +1,11 @@
+services:
+
+  node-app:
+    image: 970547369328.dkr.ecr.us-east-2.amazonaws.com/712nodeapp:latest
+    container_name: "node-app"
+    ports:
+      - 3000:3000
+    environment:
+      - SERVICE=${SERVICE}
+      - USER_EMAIL=${USER_EMAIL}
+      - PASSWORD=${USER_PASSWORD}
