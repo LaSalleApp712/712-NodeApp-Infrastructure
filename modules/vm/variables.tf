@@ -13,6 +13,12 @@ variable "aws_region" {
 variable "node_app_service" {
   type = string
 }
+variable "node_app_email" {
+  type = string
+}
+variable "node_app_password" {
+  type = string
+}
 
 variable "aws_key_pair_name" {
   type = string

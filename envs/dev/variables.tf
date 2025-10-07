@@ -1,33 +1,39 @@
-variable "aws_access_key" {
+variable "AWS_ACCESS_KEY" {
   type = string
 }
 
-variable "aws_secret_key" {
+variable "AWS_SECRET_KEY" {
   type = string
 }
 
-variable "aws_region" {
+variable "AWS_REGION" {
   type = string
 }
 
-variable "node_app_service" {
+variable "NODE_APP_SERVICE" {
+  type = string
+}
+variable "NODE_APP_EMAIL" {
+  type = string
+}
+variable "NODE_APP_PASSWORD" {
   type = string
 }
 
-variable "aws_key_pair_name" {
+variable "AWS_KEY_PAIR_NAME" {
   type = string
 }
 
-variable "aws_restaurant_sg" {
+variable "AWS_RESTAURANT_SG" {
   type = string
 }
 
-variable "aws_server_name" {
+variable "AWS_SERVER_NAME" {
   type = string
 }
-variable "aws_environment" {
+variable "AWS_ENVIRONMENT" {
   type = string
 }
-variable "aws_instance_type" {
+variable "AWS_INSTANCE_TYPE" {
   type = string
 }
