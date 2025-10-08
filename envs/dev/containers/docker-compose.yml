@@ -9,3 +9,11 @@ services:
       - SERVICE=${SERVICE}
       - USER_EMAIL=${USER_EMAIL}
       - PASSWORD=${USER_PASSWORD}
+
+  mysql:
+    image: mysql
+    container_name: "MySQL"
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=Juande..10
