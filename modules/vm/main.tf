@@ -16,6 +16,13 @@ resource "aws_security_group" "restaurant_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   ingress {
+    description = "SSH"
+    from_port = 3306
+    to_port = 3306
+    protocol = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  ingress {
     description = "NodeApp"
     from_port = 3000
     to_port = 3000
