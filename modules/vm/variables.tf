@@ -37,3 +37,6 @@ variable "aws_environment" {
 variable "aws_instance_type" {
   type = string
 }
+variable "main_domain" {
+  type = string
+}

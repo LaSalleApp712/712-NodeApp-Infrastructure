@@ -37,3 +37,7 @@ variable "AWS_ENVIRONMENT" {
 variable "AWS_INSTANCE_TYPE" {
   type = string
 }
+
+variable "MAIN_DOMAIN" {
+  type = string
+}
